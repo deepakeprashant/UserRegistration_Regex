@@ -23,4 +23,14 @@ public class RegistrationRepository {
         }
 
     }
+
+    public void checkMobileValidationOrNot(String mobileNumber) {
+        String regex ="^[1-9]{2}[\s][6-9][0-9]{9}$";
+        result = mobileNumber.matches(regex);
+        if (result){
+            System.out.println(mobileNumber+" number is valid");
+        }else {
+            System.out.println(mobileNumber+" number is does not valid");
+        }
+    }
 }
