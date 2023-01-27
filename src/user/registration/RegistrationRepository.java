@@ -13,7 +13,8 @@ public class RegistrationRepository {
         }
     }
     public void checkEmailIdValidOrNot(String emails){
-        String regex = "^[a-z]+[.+_-]{0,1}[a-z0-9]*@[a-z0-9]+.[a-z]{0,3}[.]{0,1}[a-z]{2,3}$";
+        //String regex = "^[a-z]+[.+_-]{0,1}[a-z0-9]*@[a-z0-9]+.[a-z]{0,3}[.]{0,1}[a-z]{2,3}$";
+        String regex ="([a-zA-Z0-9][+*.a-zA-Z0-9]*@[a-zA-z0-9]+(([.][a-zA-Z])+))";
         result = emails.matches(regex);
         if (result){
             System.out.println(emails+" :- Email Id is valid");
@@ -34,7 +35,7 @@ public class RegistrationRepository {
     }
 
     public void checkPassWordValidOrNot(String password) {
-        String regex = "^[A-Z]+[A-Za-z]{7,}";
+        String regex = "^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{8,20}$";
         result = password.matches(regex);
         if (result){
             System.out.println(password+" is Valid");
