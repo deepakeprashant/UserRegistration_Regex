@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dd28302-09cd-46c1-b32d-16b85a870eb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/user/registration/RegistrationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/registration/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/registration/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/registration/UserInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/user/registration/UserRegistrationMainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/registration/UserRegistrationMainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +32,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.UserRegistrationMainClass">
     <configuration name="SampleEmailData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="email.sample.data.SampleEmailData" />

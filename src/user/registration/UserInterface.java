@@ -3,11 +3,16 @@ package user.registration;
 import java.util.Scanner;
 
 public class UserInterface {
-    String firstname;
+    String firstName,lastName;
     Scanner scan = new Scanner(System.in);
-    String getFirstname(){
+    String getFirstName(){
         System.out.println("Enter User First Name");
-        firstname = scan.next();
-        return firstname;
+        firstName = scan.next();
+        return firstName;
+    }
+    String getLastName(){
+        System.out.println("Enter User Last Name");
+        lastName = scan.next();
+        return lastName;
     }
 }

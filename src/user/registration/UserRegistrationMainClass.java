@@ -4,6 +4,7 @@ public class UserRegistrationMainClass {
     public static void main(String[] args) {
         UserInterface userInterface = new UserInterface();
         RegistrationRepository repositoryObject = new RegistrationRepository();
-        repositoryObject.checkValidOrNot(userInterface.getFirstname());
+        repositoryObject.checkValidOrNot(userInterface.getFirstName());
+        repositoryObject.checkValidOrNot(userInterface.getLastName());
     }
 }
