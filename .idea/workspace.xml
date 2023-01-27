@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dd28302-09cd-46c1-b32d-16b85a870eb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserRegistration_Day19.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/email/sample/data/SampleEmailData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user/registration/UserRegistrationMainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/registration/RegistrationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user/registration/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/registration/UserRegistrationMainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/registration/UserRegistrationMainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.UserRegistrationMainClass">
     <configuration name="SampleEmailData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="email.sample.data.SampleEmailData" />
       <module name="UserRegistration_Day19" />
@@ -58,8 +54,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserRegistrationMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="user.registration.UserRegistrationMainClass" />
+      <module name="UserRegistration_Day19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="user.registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserRegistrationMainClass" />
         <item itemvalue="Application.SampleEmailData" />
       </list>
     </recent_temporary>
