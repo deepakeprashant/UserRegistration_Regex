@@ -8,7 +8,7 @@ public class SampleEmailData {
     }
 
     String[] getMultipleEmailId() {
-        String[] emails = new String[]{"abc@yahoo.com", "abc-100@yahoo.com", "abc.100@yahoo.com",
+        String[] emails = new String[]{"abc@yahoo.com", "abc-100@yahoo.com","abc-100@gmail.com", "abc.100@yahoo.com",
                 "abc111@abc.com", "abc@1.com", "abc.100@abc.com.au",
                 "abc@.com.my", "abc123@gmail.a", ".abc@abc.com", "abc()*@gmail.co"
                 , "abc..2002@gamil.co", "abc@abc@gmail.com"};

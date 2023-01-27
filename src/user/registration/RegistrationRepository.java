@@ -21,9 +21,7 @@ public class RegistrationRepository {
             System.out.println(emails+" :- Email Id does not valid");
             System.out.println("Note example:- abc.xyz@bl.co.in");
         }
-
     }
-
     public void checkMobileValidationOrNot(String mobileNumber) {
         String regex ="^[0-9]{2}[\s][6-9][0-9]{9}$";
         result = mobileNumber.matches(regex);
@@ -36,13 +34,13 @@ public class RegistrationRepository {
     }
 
     public void checkPassWordValidOrNot(String password) {
-        String regex = "^[A-Za-z]{8,}";
+        String regex = "^[A-Z]+[A-Za-z]{7,}";
         result = password.matches(regex);
         if (result){
             System.out.println(password+" is Valid");
         }else {
-            System.out.println(password+" number is does not valid");
-            System.out.println("example :- minimum 8 digit character");
+            System.out.println(password+" Password is does not valid");
+            System.out.println("example :- minimum 8 digit character, minimum 1 capital character");
         }
     }
 }

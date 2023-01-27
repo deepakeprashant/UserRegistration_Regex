@@ -30,7 +30,7 @@ public class UserInterface {
     }
     String getMobileNumber(){
         System.out.println("Enter User Mobile Number");
-        mobileNumber = scanner.nextLine();
+        mobileNumber = scanner.next();
         return mobileNumber;
     }
     String getPassword(){
