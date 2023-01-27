@@ -35,7 +35,7 @@ public class RegistrationRepository {
     }
 
     public void checkPassWordValidOrNot(String password) {
-        String regex = "^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z]).{8,20}$";
+        String regex = "^(?=.*[A-Z])(?=.*[0-9])(?=.*[a-z])(?=.*[@#$%^&+=]).{8,20}$";
         result = password.matches(regex);
         if (result){
             System.out.println(password+" is Valid");
