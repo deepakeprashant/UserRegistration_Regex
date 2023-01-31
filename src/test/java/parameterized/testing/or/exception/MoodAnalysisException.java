@@ -1,4 +1,4 @@
-package mood.analyser.exception;
+package parameterized.testing.or.exception;
 
 public class MoodAnalysisException extends Exception{
     enum ExceptionType{
